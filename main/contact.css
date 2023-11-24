@@ -1,0 +1,78 @@
+/* Styles for the header section */
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  /* Styles for the hero section */
+  .hero-section {
+    background-color: #eee;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    margin-bottom: 10px;}
+    y {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+  }
+
+  header a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+  }
+  a:hover {
+    color: #ff9900; 
+  }
+
+  section {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+  }
+
+  .hero-section {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .hero-section p {
+      font-size: 16px;
+      color: #333;
+  }
+
+  .hero-section h1 {
+      color: #555;
+  }
+
+  .hero-section a {
+      color: #007BFF;
+      text-decoration: none;
+  }

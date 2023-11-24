@@ -1,14 +1,14 @@
-body {
-    font-family: 'Arial', sans-serif;
+body, html {
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
 }
 
+/* Style the header */
 header {
     background-color: #333;
     color: white;
     padding: 10px;
-    text-align: center;
 }
 
 .nav {
@@ -17,67 +17,65 @@ header {
     align-items: center;
 }
 
-.nav img {
-    height: 40px; /* Adjust the height as needed */
-}
-
-.nav a {
+.nav_links a {
     color: white;
-    margin: 0 15px;
     text-decoration: none;
+    margin: 0 10px;
 }
 
+a:hover {
+    color: #ff9900; 
+  }
+
+/* Style the login container */
 .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh; /* Adjust the height as needed */
+    height: 100vh;
 }
 
-.main {
+/* Style the main content */
+#main, #create-acct {
     text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-#login-form {
-    margin-bottom: 20px;
+/* Initially hide the create account form */
+#create-acct {
+    display: none;
 }
 
+/* Style form inputs and buttons */
 input {
-    padding: 10px;
-    margin-bottom: 10px;
     width: 100%;
+    padding: 10px;
+    margin: 10px 0;
     box-sizing: border-box;
 }
 
 button {
-    padding: 10px;
     background-color: #333;
     color: white;
+    padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #555;
-}
-#create-acct {
-    display: none;
-    text-align: center;
+/* Add some margin to the buttons */
+#submit, #sign-up, #create-acct-btn, #return-btn {
+    margin-top: 10px;
 }
 
-#create-acct h1 {
-    color: #333;
+/* Style the "or" separator */
+p {
+    margin: 10px 0;
 }
 
-#signup-form {
-    margin-bottom: 20px;
-}
-
-#return-btn {
-    background-color: #ccc;
-    color: #333;
-}
-
-#return-btn:hover {
-    background-color: #ddd;
+span {
+    background-color: #fff;
+    padding: 0 10px;
 }
